@@ -6,13 +6,11 @@ import { Instagram, Mail, MapPin, Phone, Youtube } from "lucide-react";
 
 const quickLinks = [
   { label: "Home", href: "/#home" },
-  // { label: "Shop", href: "/#shop" },
   { label: "Our Games", href: "/#our-games" },
-  // { label: "Benefits", href: "/#benefits" },
   { label: "Insights", href: "/#insights" },
 ];
 
-const legalLinks = ["Terms and Conditions", "Privacy Policy", "Refund Policy"] as const;
+const legalLinks = ["Terms and Conditions", "Privacy Policy"] as const;
 
 type LegalKey = (typeof legalLinks)[number] | null;
 
@@ -24,10 +22,6 @@ const legalContent: Record<Exclude<LegalKey, null>, { title: string; body: strin
   "Privacy Policy": {
     title: "Privacy Policy",
     body: "Keshava respects your privacy in line with the Digital Personal Data Protection (DPDP) Act. We collect minimal personal data (name, email, shipping address) for order processing and newsletter. We do not sell data. You can request access, correction, or deletion of your data. Cookies are used for better experience. Last updated: April 2026.",
-  },
-  "Refund Policy": {
-    title: "Refund Policy",
-    body: "Refunds and replacements are reviewed based on product condition and shipping status. For damaged or incorrect orders, contact us within 7 days of delivery with your order details and proof.",
   },
 };
 
@@ -132,23 +126,9 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="mt-8 border-t border-slate-800/80 pt-6">
-            <div className="flex flex-col gap-4 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+          <div className="mt-8 border-t border-slate-800/80 pt-6 flex flex-row items-center justify-center">
+            <div className="flex flex-row items-center justify-center  text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
               <p>© 2026 Keshava. All Rights Reserved. | Made with passion in Surat, Gujarat, India</p>
-              <div className="flex flex-wrap items-center gap-4">
-                <Link className="transition hover:text-cyan-300" href="/contact">
-                  Support
-                </Link>
-                <Link className="transition hover:text-cyan-300" href="/careers">
-                  Careers
-                </Link>
-                <button type="button" className="transition hover:text-cyan-300" onClick={() => setActiveLegal("Privacy Policy")}>
-                  Data Requests
-                </button>
-                <button type="button" className="transition hover:text-cyan-300" onClick={() => setActiveLegal("Terms and Conditions")}>
-                  Accessibility
-                </button>
-              </div>
             </div>
           </div>
         </div>
