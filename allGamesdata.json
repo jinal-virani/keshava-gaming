@@ -1,0 +1,114 @@
+[{
+  "_id":  "69d4f1fb67c2676ba9a9af88",
+  "lable": "dice-puzzle",
+  "title": "Dice Puzzle",
+  "description": "Step into the world of Dice Merge Puzzle, where strategic thinking meets fun in this engaging and addictive dice puzzle game! Whether you're a fan of classic dice games or puzzle challenges, this game offers the perfect blend of both. Your goal? Merge dice to higher values, plan your moves, and keep your grid clear to continue progressing through increasingly difficult levels",
+  "imageUrl": "https://play-lh.googleusercontent.com/IRLAsmLLbV2sM0OvDawm2b9ziohdVzgde8iPBVn0FE99kDa90iSBBWSng-QpiX25WNs=w832-h470-rw",
+  "links": {
+    "ios": "https://apps.apple.com/in/app/dice-puzzle-merge-puzzle/id6479938981",
+    "android": "https://play.google.com/store/apps/details?id=com.dice.dicemerge.puzzle"
+  },
+  "isFeatured": false,
+  "createdAt": {
+    "$date": "2026-04-07T12:00:59.273Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-07T12:00:59.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "69d4fa6d67c2676ba9a9af89",
+  "lable": "bubble-merge",
+  "title": "Bubble Merge",
+  "description": "Bubble Merge 2048 Puzzle is the ultimate combination of bubble-busting fun and number-crunching strategy! In this addictive puzzle game, you'll use your ball-shooting skills to puff up bubbles and merge them together to create higher-numbered bubbles. The goal? Merge your way up to the elusive 2048 bubble and beyond!",
+  "imageUrl": "https://play-lh.googleusercontent.com/vhDXl2Wgk75L6NgxZUZRHYc5VuDop-sQyjSPt6lFM7U0oMg9_HveFtN3AxPYhKCBegY=w832-h470-rw",
+  "links": {
+    "ios": "https://apps.apple.com/in/app/bubble-merge-2048/id6446027416",
+    "android": "https://play.google.com/store/apps/details?id=com.dotpuzzle.bubblemerge.puzzle"
+  },
+  "isFeatured": false,
+  "createdAt": {
+    "$date": "2026-04-07T12:37:01.172Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-07T12:37:01.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "69d4fb3067c2676ba9a9af8a",
+  "lable": "dot-puzzle",
+  "title": "Dot Puzzle",
+  "description": "Are you ready for the ultimate dot-connecting challenge? Dive into the mesmerizing world of Dot Puzzle, the most addictive and visually stunning dot puzzle game on the Play Store and App Store!",
+  "imageUrl": "https://i.ytimg.com/vi/wxS1TWMqMU8/hqdefault.jpg",
+  "links": {
+    "ios": "https://apps.apple.com/in/app/daily-bubble/id6450705332",
+    "android": "https://play.google.com/store/apps/details?id=com.connect.color.dots.puzzle"
+  },
+  "isFeatured": false,
+  "createdAt": {
+    "$date": "2026-04-07T12:40:16.734Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-07T12:40:16.734Z"
+  },
+  "__v": 0
+},
+{
+  "_id":"69d4fb9567c2676ba9a9af8b",
+  "lable": "block-puzzle",
+  "title": "Block Puzzle",
+  "description": "Enter the world of Block Puzzle, where strategic thinking and quick reflexes reign supreme! Challenge yourself and compete against players from around the globe to climb the ranks and become the ultimate puzzle master.",
+  "imageUrl": "https://play-lh.googleusercontent.com/hrnYp9Bj1IERZRxEgJQAl-mHwZpHhhaAP_xbg_R_XOW3cTOlzqQAyx5v6WZPhtFSJ6nO=w832-h470-rw",
+  "links": {
+    "ios": "",
+    "android": "https://play.google.com/store/apps/details?id=com.dotpuzzle.blockpuzzle"
+  },
+  "isFeatured": false,
+  "createdAt": {
+    "$date": "2026-04-07T12:41:57.381Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-07T12:41:57.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id":  "69d4fc9c67c2676ba9a9af8c",
+  "lable": "connect-dot",
+  "title": "Connect Dot",
+  "description": "connect dot puzzle is simple and brain teasers game.The game represents a number dot puzzle the game to solve each puzzle connect 2dots and more dot.",
+  "imageUrl": "https://play-lh.googleusercontent.com/CX1W_uBGwO_OhQmkod4wPb8c9ZYM4ZFT3YpLwxdJaxzwp7BkhmgOzzzLK7fBz6UKGA=w832-h470-rw",
+   "links": {
+    "ios": "https://play.google.com/store/apps/details?id=com.dotpuzzle.connect.dot.free.marge.puzzle",
+    "android": "https://play.google.com/store/apps/details?id=com.dotpuzzle.connect.dot.free.marge.puzzle"
+  },
+  "isFeatured": false,
+  "createdAt": {
+    "$date": "2026-04-07T12:46:20.943Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-07T12:46:20.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "69d4fd2067c2676ba9a9af8d",
+  "lable": "connect-dot",
+  "title": "Bolt Sort",
+  "description": "Screw in the toolbox until all the same colors are together in the same toolbox. A challenging yet relaxing game to exercise your brain!",
+  "imageUrl": "https://play-lh.googleusercontent.com/ciHLsLgNVZEnRB1WWjXbh3KbTUwftGiIU1X1clZbnxp_TIeaHOBy9yBui8DEYK8gIkM=w832-h470-rw",
+   "links": {
+    "ios": "https://apps.apple.com/in/app/screw-sort/id6605928645",
+    "android": "https://play.google.com/store/apps/details?id=com.dotpuzzle.boltsort.puzzle"
+  },
+  "isFeatured": false,
+  "createdAt": {
+    "$date": "2026-04-07T12:48:32.531Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-07T12:48:32.531Z"
+  },
+  "__v": 0
+}]

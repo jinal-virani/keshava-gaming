@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --scroll-y: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #020617;
+  scroll-behavior: smooth;
+}
+
+button,
+a {
+  touch-action: manipulation;
+}
+
+.accent {
+  color: rgb(103 232 249 / 0.8);
+}
+
+.game-card-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limits text to exactly 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden; /* Ensures anything beyond 2 lines is gone */
+  
+  /* Visual Styling */
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.6;
+  word-break: break-word; 
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.learn-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  border: none !important;
+  color: #ddd2228a;
+  padding: 0.75rem 0.75rem;
+  font-size: 1 rem;
+  font-weight: 500;
+  border-radius: none !important;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background: #ddd2228a;
+  color: #000;
+  border-radius: 30px !important;
+  transform: translateX(8px);
+}
+
+/* Store Badges */
+.store-badges {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.store-btn {
+  flex: 1;
+  min-width: 120px;           /* Important for responsiveness */
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.store-btn img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.store-btn:hover img {
+  transform: scale(1.05);
+}
