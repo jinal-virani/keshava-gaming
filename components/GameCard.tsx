@@ -66,14 +66,15 @@ export function GameCard({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center min-h-[400px] w-full p-4">
 
             {/* Part 1: Image Section */}
-            <div className="relative group overflow-hidden rounded-2xl bg-slate-900 aspect-square md:aspect-auto md:h-50">
+            <div className="relative group overflow-hidden rounded-2xl bg-slate-900 aspect-video md:aspect-auto md:h-60 w-full">
               <img
                 src={imageUrl}
                 alt={title}
+                fetchPriority="high"
                 className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
               />
               {/* Optional Overlay for Gaming look */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80" />
             </div>
 
             {/* Part 2: Description Section (The 3D part) */}
