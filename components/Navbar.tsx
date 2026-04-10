@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { redirect, usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { BriefcaseBusiness, Gamepad2, Home, Mail, Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -39,7 +39,7 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <MagneticButton className="ml-2 rounded-lg bg-gradient-to-r from-purple-600 to-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-[0_0_18px_rgba(59,130,246,0.45)]">
+            <MagneticButton onClick={() => redirect('/games')} className="ml-2 rounded-lg bg-gradient-to-r from-purple-600 to-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-[0_0_18px_rgba(59,130,246,0.45)]">
               Join Us
             </MagneticButton>
           </div>

@@ -8,7 +8,6 @@ import { redirect, usePathname } from "next/navigation";
 
 type GameCardProps = {
   title: string;
-  // genre: string;
   imageUrl: string;
   description: string;
   links: {
@@ -52,9 +51,6 @@ export function GameCard({
 
   return (
     <motion.article
-      // onPointerMove={onPointerMove}
-      // onPointerEnter={onEnter}
-      // onPointerLeave={onLeave}
       className="group relative overflow-hidden rounded-2xl border border-cyan-400/40 bg-slate-900/70 p-4 shadow-[0_0_28px_rgba(6,182,212,0.26)] backdrop-blur-xl"
       style={{ transformStyle: "preserve-3d" }}
       animate={{ rotateX: rotate.x, rotateY: rotate.y }}
@@ -96,17 +92,13 @@ export function GameCard({
                   {description}
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-3 mt-8">
-                  <button className="flex-1 py-3 px-6">
-                    <a href={links.ios} target="_blank" rel="noopener noreferrer">
-                      <img src="/appstore.png" alt="Download on App Store" />
+                <div className="flex flex-col md:flex-row lg:flex-row xs:flex-row items-center justify-center gap-4 mt-8 w-full max-w-md mx-auto">
+                    <a href={links.ios} target="_blank" className="w-full xs:w-1/2 transition-transform duration-200 hover:scale-105 active:scale-95" rel="noopener noreferrer">
+                      <img src="/appstore.png" className="w-full h-auto object-contain max-h-[50px] md:max-h-[60px]" alt="Download on App Store" />
                     </a>
-                  </button>
-                  <button className="flex-1 py-3 px-6">
-                    <a href={links.android} target="_blank" rel="noopener noreferrer">
-                      <img src="/googleplay.png" alt="Get it on Google Play" />
+                  <a href={links.android} target="_blank" className="w-full xs:w-1/2 transition-transform duration-200 hover:scale-105 active:scale-95" rel="noopener noreferrer">
+                      <img src="/googleplay.png" className="w-full h-auto object-contain max-h-[50px] md:max-h-[60px]" alt="Get it on Google Play" />
                     </a>
-                  </button>
                 </div>
               </div>
             </div>

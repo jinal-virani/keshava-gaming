@@ -14,7 +14,7 @@ export default function ContactPage() {
       <h1 className="text-4xl font-extrabold">Contact Us</h1>
 
       <div className="mt-10 grid gap-8 lg:grid-cols-2">
-        <article className="glass rounded-2xl p-8">
+        <article className="glass rounded-2xl p-8 border border-cyan-400/30">
           <h2 className="text-2xl font-bold text-cyan-300/80">Send a Message</h2>
           <form className="mt-6 space-y-4">
             <input
@@ -41,16 +41,15 @@ export default function ContactPage() {
           </form>
         </article>
 
-        <article className="glass rounded-2xl p-8">
+        <article className="glass rounded-2xl p-8 border border-cyan-400/30">
           <h2 className="text-2xl font-bold">Studio Info</h2>
-          <p className="mt-4 text-sm text-slate-300">Email: hello@keshwagames.com</p>
-          <p className="text-sm text-slate-300">Phone: +1 (512) 555-0190</p>
-          <p className="text-sm text-slate-300">Address: 240 Neon District, Austin, TX</p>
+          <p className="mt-4 text-sm text-slate-300">Email: info@keshwagames.com</p>
+          {/* <p className="text-sm text-slate-300">Phone: +1 (512) 555-0190</p>
+          <p className="text-sm text-slate-300">Address: 240 Neon District, Austin, TX</p> */}
 
           <div className="mt-5 flex gap-4 text-neon-cyan">
-            <Instagram />
-            <Youtube />
-            <Linkedin />
+            <Instagram  color='rgb(103 232 249 / 0.8)'/>
+            <Linkedin color='rgb(103 232 249 / 0.8)'/>
           </div>
 
           <div className="mt-6 overflow-hidden rounded-xl border border-white/15">

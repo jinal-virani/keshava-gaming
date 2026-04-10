@@ -45,9 +45,9 @@ export function Footer() {
               <p className="mt-3 text-sm leading-6 text-slate-300">
                 Keshava designs screen-free puzzle experiences that build curiosity, focus, and family connection.
               </p>
-              <p className="mt-3 inline-flex items-center gap-2 text-sm text-slate-400">
+              {/* <p className="mt-3 inline-flex items-center gap-2 text-sm text-slate-400">
                 <MapPin className="h-4 w-4 text-cyan-300" /> Surat, Gujarat, India
-              </p>
+              </p> */}
             </div>
 
             <div>
@@ -81,13 +81,9 @@ export function Footer() {
               <ul className="mt-4 space-y-3 text-sm text-slate-300">
                 <li>
                   <a className="inline-flex items-center gap-2 transition hover:text-cyan-300" href="mailto:hello@keshava.in">
-                    <Mail className="h-4 w-4" /> hello@keshava.in
+                    <Mail className="h-4 w-4" /> info@keshava.in
                   </a>
                 </li>
-                <li className="inline-flex items-center gap-2">
-                  <Phone className="h-4 w-4" /> +91-XXXXXXXXXX
-                </li>
-                <li>4th Floor, Puzzle House, Ghod Dod Road, Surat, Gujarat, India</li>
               </ul>
             </div>
           </div>
@@ -119,16 +115,16 @@ export function Footer() {
                 <a aria-label="YouTube" href="https://youtube.com" target="_blank" rel="noreferrer" className="rounded-full border border-slate-700 p-2 transition hover:border-cyan-300 hover:text-cyan-200">
                   <Youtube className="h-4 w-4" />
                 </a>
-                <a aria-label="X" href="https://x.com" target="_blank" rel="noreferrer" className="rounded-full border border-slate-700 p-2 text-xs font-bold transition hover:border-cyan-300 hover:text-cyan-200">
+                {/* <a aria-label="X" href="https://x.com" target="_blank" rel="noreferrer" className="rounded-full border border-slate-700 p-2 text-xs font-bold transition hover:border-cyan-300 hover:text-cyan-200">
                   X
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
 
           <div className="mt-8 border-t border-slate-800/80 pt-6 flex flex-row items-center justify-center">
             <div className="flex flex-row items-center justify-center  text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
-              <p>© 2026 Keshava. All Rights Reserved. | Made with passion in Surat, Gujarat, India</p>
+              <p>© 2026 Keshava. All Rights Reserved. | Made with passion in India</p>
             </div>
           </div>
         </div>
